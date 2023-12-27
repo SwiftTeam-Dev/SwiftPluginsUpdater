@@ -6,7 +6,7 @@ Manage your plugins's updates installed on your server.
 
 [![Download](https://img.shields.io/github/downloads/SniperTVmc/SwiftPluginsUpdater/total?style=for-the-badge)](https://github.com/SniperTVmc/MagicSniper/releases/)
 [![License](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-blue?style=for-the-badge)](https://github.com/SniperTVmc/MagicSniper/blob/Main/LICENSE)
-[![CodeFactor](https://www.codefactor.io/repository/github/SniperTVmc/SwiftPluginsUpdater/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/snipertvmc/magicsniper)
+[![CodeFactor](https://www.codefactor.io/repository/github/SwiftTeam-Dev/SwiftPluginsUpdater/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/snipertvmc/magicsniper)
 
 <!--
 ## Preview / Screenshots
