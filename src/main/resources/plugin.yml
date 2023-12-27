@@ -1,0 +1,17 @@
+main: fr.snipertvmc.swiftpluginsupdater.Main
+
+
+name: SwiftPluginsUpdater
+version: 0.0.0
+description: Manage your plugins's updates installed on your server.
+
+
+author: Sniper_TVmc
+website: https://github.com/SniperTVmc
+
+
+#commands:
+#
+#  gamemode:
+#    description: "Utilisez cette commande afin de changer votre mode de jeu."
+#    aliases: [gm, gamem, gmode]
