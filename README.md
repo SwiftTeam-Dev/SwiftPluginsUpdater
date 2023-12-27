@@ -2,7 +2,7 @@
 
 # SwiftPluginsUpdater
 
-Manage your plugins's updates installed on your server.
+Manage updates for your plugins installed on your server and install them automatically.
 
 [![Download](https://img.shields.io/github/downloads/SniperTVmc/SwiftPluginsUpdater/total?style=for-the-badge)](https://github.com/SniperTVmc/MagicSniper/releases/)
 [![License](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-blue?style=for-the-badge)](https://github.com/SniperTVmc/MagicSniper/blob/Main/LICENSE)
@@ -32,9 +32,9 @@ Manage your plugins's updates installed on your server.
 
 Requirements:
 
-- Minecraft Server: Java Edition
-- Supported Versions ([here](https://link.fr))
-- NBT-API: 2.12.2+ ([download here](https://modrinth.com/plugin/nbtapi/))
+- **Minecraft Support**: Java Edition
+- **Minecraft Server Type**: Bukkit, Spigot, Paper and all its forks are supposed to work.
+- **Supported Versions**: ([here](https://github.com/SwiftTeam-Dev/SwiftPluginsUpdater?tab=readme-ov-file#supported-versions))
 
 First, install the latest version of SwiftPluginUpdater [here](github.com/SniperTVmc/MagicSniper/releases/latest).
 
@@ -67,7 +67,7 @@ our [discord](https://discord.gg/fSzK79TAYf).
 <!-- Are you using our plugin and would like to add your server to the list? Join
 our [discord](https://discord.gg/fSzK79TAYf). -->
 
-- ✅ `1.19.4 (Tested)`
+- ✅ `1.8.8 (Native Version - Fully Compatible)`
 
 ## License
 
