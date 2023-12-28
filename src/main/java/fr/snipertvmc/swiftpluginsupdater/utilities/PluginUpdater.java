@@ -22,7 +22,9 @@ public class PluginUpdater {
 			return (String) response.get("name");
 
 		} catch (Exception e) {
-			Main.getConsoleLogger().warning("Erreur lors de la vérification de la version : " + e.getMessage());
+			Main.getConsoleLogger().warning("");
+			Main.getConsoleLogger().warning("Error while checking of an update for SwiftPluginsUpdater: " + e.getMessage());
+			Main.getConsoleLogger().warning("");
 			return null;
 		}
 	}
