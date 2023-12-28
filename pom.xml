@@ -16,6 +16,12 @@
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 
+		<!-- Maven REPOSITORY -->
+		<repository>
+			<id>maven-repo</id>
+			<url>https://repo1.maven.org/maven2/</url>
+		</repository>
+
 	</repositories>
 
 	<dependencies>
