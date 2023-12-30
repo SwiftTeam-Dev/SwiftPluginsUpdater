@@ -1,9 +1,5 @@
 {
-  "ViaVersion": {
-    "ressourceID": 19254
-  },
-
-  "ProtocolLib": {
-    "ressourceID": 1997
+  "SwiftPluginsUpdater": {
+    "ressourceID": 114152
   }
 }
