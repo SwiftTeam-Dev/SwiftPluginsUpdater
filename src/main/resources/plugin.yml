@@ -2,7 +2,7 @@ main: fr.snipertvmc.swiftpluginsupdater.Main
 
 
 name: SwiftPluginsUpdater
-version: 0.0.0-alpha
+version: 0.0.1-alpha
 description: Manage updates for your plugins installed on your server and install them automatically.
 
 

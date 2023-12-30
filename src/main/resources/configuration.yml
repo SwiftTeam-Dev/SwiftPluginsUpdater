@@ -19,10 +19,10 @@ prefix: "&8&l[&6SwiftPluginsUpdater&8&l] &7"
 
 ## Check if a new update is available for SwiftPluginsUpdater.
 ##  Default value: true
-check-update: true
+check-updates: true
 
 
 ## Set true if you want update automatically SwiftPluginsUpdater if a new update is available.
 ## Requires check-update set to true.
 ## Default value: true
-auto-update: true
+auto-updates: true
