@@ -17,21 +17,28 @@ public class UpdatesManager {
 
 
 	public static void afterRestartSetup(List<String> pluginList) {
+
 		for (String pluginName : pluginList) {
 
-			String rawSourcePath = Main.getInstance().getDataFolder() + "/temp/" + pluginName + ".jar";
-			Path sourcePath = Paths.get(rawSourcePath);
+			if (RessourcesDatabaseManager.getRessourceList().contains(pluginName)) {
+				String rawSourcePath = Main.getInstance().getDataFolder() + "/temp/" + pluginName + ".jar";
+				Path sourcePath = Paths.get(rawSourcePath);
 
-			String rawDestinationPath = Main.getInstance().getDataFolder().toString();
-			Path destinationPath = Paths.get(rawDestinationPath);
+				String rawDestinationPath = Main.getInstance().getDataFolder().toString();
+				Path destinationPath = Paths.get(rawDestinationPath);
 
-			try {
-				if (Files.exists(sourcePath)) {
-					Files.move(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+				try {
+					if (Files.exists(sourcePath)) {
+						Files.move(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
+					}
+
+				} catch (Exception e) {
+					Main.getConsoleLogger().error(e.getMessage());
+					Main.getConsoleLogger().error("");
 				}
 
-			} catch (Exception e) {
-				Main.getConsoleLogger().error(e.getMessage());
+			} else {
+				Main.getConsoleLogger().error("Le plugin " + pluginName + " n'est pas présent dans les données du plugin.");
 				Main.getConsoleLogger().error("");
 			}
 		}
