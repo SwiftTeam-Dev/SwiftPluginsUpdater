@@ -49,13 +49,12 @@ public class RessourcesDatabaseManager {
 
 		try {
 			jsonObject = jsonParser.parse(new InputStreamReader(new URL(pluginsDatabaseUrl).openStream())).getAsJsonObject();
+			return jsonObject.getAsJsonObject(ressourceName).get("ressourceID").getAsInt();
 
 		} catch (IOException e) {
 			Main.getConsoleLogger().error(e.getMessage());
 			Main.getConsoleLogger().error("");
 			return -1;
 		}
-
-		return jsonObject.getAsJsonObject(ressourceName).get("ressourceID").getAsInt();
 	}
 }
